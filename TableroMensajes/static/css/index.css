@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    background-color: #abebc6;
+    margin: 0 20px;
+    height: 600px;
+}
+
+.container .filtros{
+    width: 45%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+}
+
+.opcionesFiltrado{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.efectuarFiltro{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.efectuarFiltro *{
+    font-size: 30px;
+    font-weight: bold;
+    height: 100%;
+    width: 40%;
+}
+
+.radio{
+    margin: 5px 30px;
+}
+
+.fechaYhora{
+    display: flex;
+    flex-direction: column;
+}
+
+.fechaYhora *{
+    width: 50%;
+    margin: 5px 30px;
+    font-size: 20px;
+}
+
+.textos{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container .mensajes{
+    width: 55%;
+    background-color: rgb(82, 123, 158);
+    display: flex;
+    flex-direction: column;
+}
+
+.descripcion{
+    padding: 30px;
+    background-color: #DAF7A6;
+}
+
+.espacioMensajes{
+    background-image: url('img/fondo.jpg');
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.mensaje{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    padding: 10px 20px;
+    background-color: #abebc6;
+    border-radius: 30px;
+}
+
+.mensaje .titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mensaje .titulo .nombre{
+    font-weight: bold;
+}
+
+.mensaje .fechaHora{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.mensaje img{
+    height: 40px;
+    width: 40px;
+}
